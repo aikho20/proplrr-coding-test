@@ -20,7 +20,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <Header />
-        <div>{children}</div>
+        <div className="h-full w-full">{children}</div>
         <MobileControls />
       </body>
     </html>

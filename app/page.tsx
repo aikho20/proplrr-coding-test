@@ -90,11 +90,11 @@ export default function Home() {
             </CarouselItem>
           ))}
         </CarouselContent>
-        <CarouselPrevious />
-        <CarouselNext />
+        <CarouselPrevious className="left-10 top-1/2" />
+        <CarouselNext className="right-10 top-1/2" />
       </Carousel>
 
-      <p className="text-lg md:text-2xl text-gray-700 font-weight-100 text-center py-10">
+      <p className="text-lg md:text-2xl text-gray-500 font-weight-100 text-center py-10">
         NEW PRODUCTS
       </p>
       <div className="">
@@ -116,8 +116,8 @@ export default function Home() {
               </CarouselItem>
             ))}
           </CarouselContent>
-          <CarouselPrevious />
-          <CarouselNext />
+          <CarouselPrevious className="left-[20%] md:left-[30%] lg:left-[35%]  -top-[55px] text-dark" />
+          <CarouselNext className="right-[20%] md:right-[30%] lg:right-[35%]  -top-[55px] text-dark" />
         </Carousel>
       </div>
 
