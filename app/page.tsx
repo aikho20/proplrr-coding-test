@@ -35,7 +35,7 @@ export default function Home() {
                         </p>
                       </div>
                       <div className="flex flex-col w-[60%] justify-eend sm:justify-end h-[30%] items-start z-100">
-                        <div className="flex flex-row mt-30px md:mt-0">
+                        <div className="flex flex-row mt-[30px] md:mt-0">
                           <Button
                             variant={"secondary"}
                             size={"sm"}
